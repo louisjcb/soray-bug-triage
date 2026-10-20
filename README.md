@@ -1,8 +1,8 @@
+# soray-bug-triage
+
 <p align="center">
   <img src="https://soraylabs.me/og-image.png" alt="SorayLabs Banner" width="100%">
 </p>
-
-# soray-bug-triage
 
 A Discord bot that turns player bug reports into structured GitHub issues using
 [Claude](https://www.anthropic.com/claude), with a human in the loop.
