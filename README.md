@@ -3,7 +3,8 @@
 A Discord bot that turns player bug reports into structured GitHub issues using
 [Claude](https://www.anthropic.com/claude), with a human in the loop.
 
-Built by [SorayLabs](https://soraylabs.me). Status: **early prototype (v0.1)**.
+Built by [SorayLabs](https://soraylabs.me). 
+Status: **early prototype (v0.1)**.
 
 ## The problem
 
