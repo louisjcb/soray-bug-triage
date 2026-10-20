@@ -1,0 +1,33 @@
+{
+  "name": "soray-bug-triage",
+  "version": "0.1.0",
+  "description": "Discord bot that turns player bug reports into structured GitHub issues using Claude, with human review.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Louis (SorayLabs)",
+  "homepage": "https://soraylabs.me",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisjcb/soray-bug-triage.git"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "scripts": {
+    "dev": "tsx watch --env-file=.env src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node --env-file=.env dist/index.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@octokit/rest": "^21.0.2",
+    "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
